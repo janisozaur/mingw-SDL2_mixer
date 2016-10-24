@@ -6,7 +6,6 @@ Release:        1%{?dist}
 Summary:        MinGW Windows port of Simple DirectMedia Layer's Sample Mixer Library
 
 License:        zlib
-Group:          Development/Libraries
 URL:            http://www.libSDL.org/projects/SDL_mixer/
 Source0:        http://www.libSDL.org/projects/SDL_mixer/release/SDL2_mixer-%{version}.tar.gz
 
@@ -91,6 +90,7 @@ find $RPM_BUILD_ROOT -name "*.la" -delete
 %changelog
 * Mon Oct 24 2016 Kalev Lember <klember@redhat.com> - 2.0.1-1
 - Update to 2.0.1
+- Don't set group tags
 
 * Thu Feb 04 2016 Fedora Release Engineering <releng@fedoraproject.org> - 2.0.0-5
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_24_Mass_Rebuild
