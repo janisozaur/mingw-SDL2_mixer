@@ -88,7 +88,7 @@ find $RPM_BUILD_ROOT -name "*.la" -delete
 
 
 %changelog
-* Sun Aug 16 2018 Michał Janiszewski <janisozaur+fedorasdl2mixer@gmail.com> - 2.0.2-1
+* Sun Aug 16 2018 Michał Janiszewski <xxxxx@xxxxx.com> - 2.0.2-1
 - Update to 2.0.2
 
 * Fri Jul 13 2018 Fedora Release Engineering <releng@fedoraproject.org> - 2.0.1-5
